@@ -3,7 +3,7 @@ message: "If you use this software in academic work, please cite this repository
 title: "Bib Literature Audit"
 type: software
 authors:
-  - family-names: "Mohseni Gharyehsafa"
+  - family-names: "Mohseni-Gharyehsafa"
     given-names: "Behnam"
 version: 1.0.0
 date-released: 2026-09-06
