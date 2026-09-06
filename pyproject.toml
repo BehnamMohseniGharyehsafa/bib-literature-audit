@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bib-literature-audit"
+version = "1.0.0"
+description = "Conservative BibTeX bibliography auditing, duplicate detection, reference classification, DOI verification, and DOI enrichment."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Behnam Mohseni Gharyehsafa"}
+]
+keywords = [
+  "bibtex",
+  "bibliography",
+  "literature-review",
+  "doi",
+  "crossref",
+  "datacite",
+  "research-software"
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+dependencies = []
+
+[project.scripts]
+bib-literature-audit = "bib_literature_audit:main"
+
+[tool.setuptools]
+py-modules = ["bib_literature_audit"]
