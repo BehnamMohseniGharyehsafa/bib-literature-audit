@@ -27,7 +27,7 @@ The tool classifies reference types, checks structural metadata, detects duplica
 bib-literature-audit/
 ├── bib_literature_audit.py
 ├── references.bib
-├── example_results/
+├── references_audit/
 │   ├── console_summary.txt
 │   ├── manual_review.csv
 │   ├── references_audit.csv
@@ -44,7 +44,7 @@ bib-literature-audit/
 └── README.md
 ```
 
-`references.bib` is included as a real bibliography example. The `example_results/` directory contains a snapshot of the audit output generated from that file. Online metadata services can change over time, so future runs may return slightly different DOI candidates or landing URLs.
+`references.bib` is included as a real bibliography example. The `references_audit/` directory contains a snapshot of the audit output generated from that file. Online metadata services can change over time, so future runs may return slightly different DOI candidates or landing URLs.
 
 ## Requirements
 
